@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Éxito</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <h1 style="color: #2ecc71;">Login Successfully!</h1>
+        <p>Has accedido correctamente al sistema.</p>
+        <br>
+        <button onclick="logout()">Cerrar Sesión (Salida)</button>
+    </div>
+
+    <script>
+        function logout() {
+            // Aquí podrías limpiar tokens de localStorage si los usaras
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

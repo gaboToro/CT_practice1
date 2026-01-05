@@ -1,0 +1,25 @@
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+
+# Archivos de entorno y secretos (IMPORTANTE: Nunca subas esto)
+.env
+.env.local
+
+# Datos persistentes de Docker (Base de datos local)
+pgdata/
+
+# Archivos temporales de Terraform (Para la siguiente fase)
+.terraform/
+terraform.tfstate*
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+
+# Archivos del Sistema Operativo y Editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
